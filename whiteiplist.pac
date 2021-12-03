@@ -1,4 +1,4 @@
-var wall_proxy = "SOCKS5 127.0.0.1:10860;";
+var wall_proxy = "SOCKS5 10.10.112.82:8283;";
 var nowall_proxy = "DIRECT;";
 var direct = "DIRECT;";
 var ip_proxy = "DIRECT;";
@@ -93,4 +93,3 @@ function FindProxyForURL(url, host) {
 	
 	return getProxyFromIP(strIp);
 }
-
